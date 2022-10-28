@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>624</width>
+    <height>584</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>iKun Box</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 12pt &quot;HYWenHei-85W&quot;;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>481</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {border: 2px solid grey; border-radius: 5px; background-color: #FFFFFF; text-align:center; font-size:20px}</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="textVisible">
+     <bool>true</bool>
+    </property>
+    <property name="invertedAppearance">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>611</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:url(:/resources/resources/cxk.png);</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="usesScrollButtons">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="Page1">
+     <attribute name="title">
+      <string>经典</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_1">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>10</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>10</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>鸡你太美_短</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>10</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>你</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>10</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>太</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>10</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>美</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>你</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>130</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>干</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>130</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>嘛</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>70</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>鸡你实在太美</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>130</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>哇哈哈</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>130</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>哎吆</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>70</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>你干嘛哎吆</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>70</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>你干嘛</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_14">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>130</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>你干嘛（倒）</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_15">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>200</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>鸡叫</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_16">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>200</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>全民制作人</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_17">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>200</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>我是</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_19">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>200</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>蔡徐坤</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_18">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>200</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>时长两年半</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_20">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>260</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>喜欢</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_21">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>260</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>唱</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_22">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>260</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>跳</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_23">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>260</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Rap</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_24">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>260</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>篮球</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_25">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>260</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Music</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_26">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>320</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>全民full</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_27">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>320</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>干嘛</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_28">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>320</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>啊</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_30">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>320</y>
+        <width>181</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>厉不厉害你坤哥</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_31">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>380</y>
+        <width>91</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>英文名</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_32">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>380</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Kun</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_29">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>320</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>哈哈</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_33">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>380</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>厉不厉害</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_34">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>380</y>
+        <width>91</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>你坤哥</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_35">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>380</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>个人练习坤</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_36">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>450</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>笑死</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_37">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>450</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>我特别厉害</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_38">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>450</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>特别厉害</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_39">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>450</y>
+        <width>91</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>大家好</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_40">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>450</y>
+        <width>91</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>两年半</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_41">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>70</y>
+        <width>51</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>你
+干
+↑↓
+嘛</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Page2">
+     <attribute name="title">
+      <string>各种鸡</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_p2_1">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>10</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>三国鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_2">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>10</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>仙剑鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_4">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>70</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>赛尔鸡_V</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_3">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>10</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>化鸡飞</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_5">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>70</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>鸡出没_V</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>卡点鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_7">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>70</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>印度鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>大悲鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_9">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>130</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>小母鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_10">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>240</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>新年鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_11">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>190</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>新闻鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_12">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>190</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>果宝鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_13">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>130</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>欢喜鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_14">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>310</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>耶耶鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_15">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>310</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>葫芦鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_16">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>310</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>青蛙鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_17">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>300</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>狂放鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_18">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>370</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>鸡战_V</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_19">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>190</y>
+        <width>61</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 18pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>鸡
+你
+太
+美</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_20">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>370</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>谢谢鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_21">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>130</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 18pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>仙剑鸡_V</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_22">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>250</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>本草鸡目_V</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_23">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>440</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>千年鸡_V</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_24">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>190</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>植物鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_25">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>370</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>江南鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_26">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>370</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>落入鸡尘</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_27">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>440</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>西游鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_28">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>440</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>终鸡猎手_V</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p2_29">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>250</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>骑鸡再现_V</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Page3">
+     <attribute name="title">
+      <string>ikun语录</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_p3_1">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>30</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>告诉你们</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_2">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>30</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>如果再黑</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_3">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>30</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>小心我</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_4">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>90</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>花点money</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_5">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>90</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>把你们都</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_6">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>90</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>告上法庭</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_7">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>90</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>犯法了</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>用他人的</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_9">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>140</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>照片改成</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_10">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>140</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>公鸡母鸡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_11">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>140</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>还有母猪</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_12">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>190</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>荔枝</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_13">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>190</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>你让我拿什么</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_14">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>190</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>还要我怎么荔枝</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_15">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>190</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>荔枝啊</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_16">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>240</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>荔枝（全）</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_17">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>240</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>连招</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_18">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>240</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>ikun真情流露</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_19">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>350</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_20">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>350</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_21">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>350</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_22">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>350</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_23">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>350</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录5</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_24">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>400</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录6</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_25">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>400</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录10</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_26">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>400</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录7</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_27">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>400</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录8</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_28">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>400</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录9</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_29">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>450</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录11</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_30">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>450</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录12</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_31">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>450</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录13</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_32">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>450</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>语录14</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_33">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>290</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>荔枝，拿什么荔枝</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p3_34">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>290</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>娱乐圈的规矩</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>鸡问</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_p4_1">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>10</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 24pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>暴揍三浦</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p4_2">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 24pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>暴揍美国人</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p4_3">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>90</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 24pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>暴揍雷神</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p4_4">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>90</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 24pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>暴揍灭霸</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p4_5">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>170</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 24pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>终鸡杀人王</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_p4_6">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>170</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 24pt &quot;HYWenHei-85W&quot;;</string>
+      </property>
+      <property name="text">
+       <string>鸡元甲</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pauseButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;HYWenHei-85W&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Pause</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;HYWenHei-85W&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <zorder>tabWidget</zorder>
+   <zorder>progressBar</zorder>
+   <zorder>pauseButton</zorder>
+   <zorder>stopButton</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

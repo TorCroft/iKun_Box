@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="resources">
+    <file>resources/hk4e_zh-cn.ttf</file>
+    <file>resources/cxk.png</file>
+  </qresource>
+</RCC>
